@@ -12,12 +12,12 @@ export default class Sub extends Component {
   }
 
   handleChangeA(a) {
-    this.setState({ num1: parseInt(a) });
+    this.setState({ num1: Number(a) });
     console.log(a);
   }
 
   handleChangeB(b) {
-    this.setState({ num2: parseInt(b) });
+    this.setState({ num2: Number(b) });
     console.log(b);
   }
 
